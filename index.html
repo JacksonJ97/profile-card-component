@@ -5,43 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Profile card component</title>
 
 </head>
 <body>
-    <div class="profile-card">
-      <img src="/images/bg-pattern-card.svg" alt="" class="card-background">
+  <div class="card-container">
+    <div class="card-header">
+      <img src="/images/bg-pattern-card.svg" alt="card header background" class="card-header-bg">
 
-      <div class="profile-picture">
-        <img src="/images/image-victor.jpg" alt="profile picture">
-      </div>
+      <img src="/images/image-victor.jpg" alt="user picture" class="profile-picture round-border">
+    </div>
 
+    <div class="card-content">
       <div class="profile-details">
-        <div class="profile-details-name">Victor Crest</div>
-        <div class="profile-details-age">26</div>
-        <div class="profile-details-location">London</div>
+        <p class="name">Victor Crest <span class="age">26</span></p>
+        <p class="location">London</p>
       </div>
 
       <div class="profile-stats">
-        <div class="profile-stats-followers">
-          <div class="value">80K</div>
-          <div class="title">Followers</div>
+        <div class="profile-stat">
+          <p class="value">80k</p>
+          <p class="title">Followers</p>
         </div>
 
-        <div class="profile-stats-likes">
-          <div class="value">803K</div>
-          <div class="title">Likes</div>
+        <div class="profile-stat">
+          <p class="value">803k</p>
+          <p class="title">Likes</p>
         </div>
 
-        <div class="profile-stats-photos">
-          <div class="value">1.4k</div>
-          <div class="title">Photos</div>
+        <div class="profile-stat">
+          <p class="value">1.4k</p>
+          <p class="title">Photos</p>
         </div>
       </div>
     </div>
+  </div>
 
+    
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/JacksonJ97" target="_blank">Jackson Jude</a>.

@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 1.125rem;
+    background-color: rgb(25, 162, 174);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+
+.card-header-bg {
+    max-width: 100%;
+    border-radius: 12px 12px 0 0;
+}
+
+.round-border {
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.profile-picture {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 55px;
+}
+
+.profile-details {
+    position: relative;
+    bottom: 30px;
+}
+
+.name {
+    font-weight: 700;
+    text-align: center;
+}
+
+.age {
+    font-weight: 400;
+    color: rgb(150, 150, 150);
+}
+
+.location {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 0.75em;
+    color: rgb(150, 150, 150);
+}
+
+.profile-stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5em;
+    border-top: 1px solid rgb(230, 230, 230);
+}
+
+.profile-stat {
+    text-align: center;
+}
+
+.value {
+    font-weight: 700;
+}
+
+.title {
+    font-size: 0.75rem;
+    color: rgb(150, 150, 150);
+    margin-top: 0.5em;
+}
