@@ -7,7 +7,8 @@
 body {
     font-family: "Kumbh Sans", sans-serif;
     font-size: 1.125rem;
-    background-color: rgb(25, 162, 174);
+    background-color: hsl(185, 75%, 39%);
+    color: rgb(45, 50, 72);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -55,6 +56,8 @@ body {
 .profile-details {
     position: relative;
     bottom: 30px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding-bottom: 1.25em;
 }
 
 .name {
@@ -64,25 +67,25 @@ body {
 
 .age {
     font-weight: 400;
-    color: rgb(150, 150, 150);
+    color: rgb(106, 111, 129);
 }
 
 .location {
-    font-size: 1rem;
+    font-size: 0.85rem;
     text-align: center;
     margin-top: 0.75em;
-    color: rgb(150, 150, 150);
+    color: rgb(106, 111, 129);
 }
 
 .profile-stats {
     display: flex;
-    justify-content: space-around;
-    padding: 1.5em;
-    border-top: 1px solid rgb(230, 230, 230);
+    justify-content: center;
+    padding-bottom: 1.5em;
 }
 
 .profile-stat {
     text-align: center;
+    margin: 0 1.5em;
 }
 
 .value {
@@ -90,7 +93,8 @@ body {
 }
 
 .title {
-    font-size: 0.75rem;
-    color: rgb(150, 150, 150);
-    margin-top: 0.5em;
+    font-size: 0.6rem;
+    color: rgb(106, 111, 129);
+    letter-spacing: 1px;
+    margin-top: 0.65em;
 }
