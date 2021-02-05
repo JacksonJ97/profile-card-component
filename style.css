@@ -7,7 +7,7 @@
 body {
     font-family: "Kumbh Sans", sans-serif;
     font-size: 1.125rem;
-    background-color: hsl(185, 75%, 39%);
+    background-color: rgb(25, 162, 174);
     color: rgb(45, 50, 72);
     height: 100vh;
     display: flex;
